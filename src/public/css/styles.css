@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #1e88e5;
+  color: white;
+  padding: 1em;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 4em;
+  background: #f5f5f5;
+}
+
+button {
+  padding: 0.7em 1.2em;
+  background: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #1565c0;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Ajuste de tamaño del carrusel */
+.custom-carousel {
+  max-height: 400px; /* ajusta este valor según prefieras */
+  overflow: hidden;
+}
+
+.custom-carousel img {
+  object-fit: cover; /* recorta manteniendo proporciones */
+  height: 400px; /* mismo valor que el max-height */
+}
+
